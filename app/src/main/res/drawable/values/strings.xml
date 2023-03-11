@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Numeral Converter Calculator System</string>
+    <string name="app_logo">app logo</string>
+    <string name="number_converter">Number Converter</string>
+    <string name="clear">Clear</string>
+    <string name="decimal_title">Decimal</string>
+    <string name="binary_title">Binary</string>
+    <string name="octal_title">Octal</string>
+    <string name="hexa_title">HexaDecimal</string>
+</resources>
