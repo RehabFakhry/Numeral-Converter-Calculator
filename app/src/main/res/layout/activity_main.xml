@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="16dp"
+    android:background="@drawable/background_design"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/number_converter"
+        android:textStyle="bold"
+        android:textSize="@dimen/headSize"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/marginMedium"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginMedium">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/img_1"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/marginMedium"
+                android:contentDescription="@string/app_logo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/decimal_title"
+                android:layout_marginBottom="@dimen/marginSmall"
+                android:textAppearance="@style/properties"
+                android:layout_marginTop="@dimen/marginMedium"/>
+
+            <EditText
+                android:id="@+id/etvDecimal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingStart="24dp"
+                android:textAppearance="@style/editTextProp"
+                android:background="@drawable/focusview_design"
+                android:inputType="numberDecimal"
+                android:digits="0123456789"
+                tools:ignore="RtlSymmetry"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/binary_title"
+                android:layout_marginBottom="@dimen/marginSmall"
+                android:textAppearance="@style/properties"
+                android:layout_marginTop="@dimen/marginSmall"/>
+
+            <EditText
+                android:id="@+id/etvBinary"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingStart="24dp"
+                android:textAppearance="@style/editTextProp"
+                android:background="@drawable/focusview_design"
+                android:inputType="number"
+                android:digits="01"
+                tools:ignore="RtlSymmetry" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/octal_title"
+                android:layout_marginBottom="@dimen/marginSmall"
+                android:textAppearance="@style/properties"
+                android:layout_marginTop="@dimen/marginSmall"/>
+
+            <EditText
+                android:id="@+id/etvOctal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingStart="24dp"
+                android:textAppearance="@style/editTextProp"
+                android:background="@drawable/focusview_design"
+                android:inputType="number"
+                android:digits="01234567"
+                tools:ignore="RtlSymmetry"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hexa_title"
+                android:layout_marginBottom="@dimen/marginSmall"
+                android:textAppearance="@style/properties"
+                android:layout_marginTop="@dimen/marginSmall"/>
+
+            <EditText
+                android:id="@+id/etvHexadecimal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingStart="24dp"
+                android:textAppearance="@style/editTextProp"
+                android:background="@drawable/focusview_design"
+                android:inputType="textCapCharacters"
+                android:digits="0123456789abcdefABCDEF"
+                tools:ignore="RtlSymmetry" />
+
+            <Button
+                android:id="@+id/btnClear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginLarge"
+                android:background="@drawable/button_design"
+                android:text="@string/clear"
+                android:textAppearance="@style/btnProp"
+                android:layout_gravity="center_horizontal"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
