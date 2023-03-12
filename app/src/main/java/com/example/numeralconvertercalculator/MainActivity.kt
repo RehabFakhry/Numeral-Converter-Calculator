@@ -50,11 +50,11 @@ class MainActivity : AppCompatActivity() {
                 (findViewById<View>(focusViewId) as EditText).addTextChangedListener(textWatcher)
                 val gradientDrawable = GradientDrawable(
                     GradientDrawable.Orientation.TR_BL, intArrayOf(
-                        Color.parseColor("#2bb7b7"), Color.parseColor("#EC8282")
+                        Color.parseColor("#31b5b5"), Color.parseColor("#E6E6FA")
                     )
                 )
                 gradientDrawable.shape = GradientDrawable.RECTANGLE
-                gradientDrawable.cornerRadius = 10f
+                gradientDrawable.cornerRadius = 32f
                 if (focusViewId == R.id.etvDecimal) {
                     gradientDrawable.setStroke(
                         8,
