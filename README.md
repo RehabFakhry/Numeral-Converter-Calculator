@@ -3,4 +3,4 @@ This is my Numeral Converter Calculator App to convert between decimal,binary,oc
 Use kotlin as a programming language
 
 
-![image](https://user-images.githubusercontent.com/95092898/224548589-a5c720e2-b0e3-43cc-9343-3fc6726faf30.png)
+![image](https://user-images.githubusercontent.com/95092898/224548926-39aab09d-4b30-4936-b27f-f6c3d701ce4d.png)
