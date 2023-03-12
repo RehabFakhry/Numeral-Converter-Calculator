@@ -9,6 +9,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="btnColor">#3DA19E</color>
     <color name="teal_300">#02BEBD</color>
-    <color name="lightYellow">#3EDDD8</color>
-    <color name="DarkYellow">#EBAD4F</color>
+    <color name="light">#3EDDD8</color>
+    <color name="Dark">#F1B2EE</color>
+    <color name="Lavender">#E6E6FA</color>
+    <color name="mint_blue">#31b5b5</color>
 </resources>
