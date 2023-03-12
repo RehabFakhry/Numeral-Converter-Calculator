@@ -4,5 +4,5 @@
     <dimen name="marginLarge">24dp</dimen>
     <dimen name="headSize">32sp</dimen>
     <dimen name="marginSmall">8dp</dimen>
-<!--    <dimen name="subheadSize">20dp</dimen>-->
+
 </resources>
